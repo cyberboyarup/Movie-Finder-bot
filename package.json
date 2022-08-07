@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "micro-bot"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -14,6 +18,10 @@
     "micro-bot": "^2.5.3",
     "node-telegram-bot-api": "^0.58.0",
     "nodemon": "^2.0.19",
-    "requests": "^0.3.0"
+    "requests": "^0.3.0" 
+  },
+    "engines": {
+      "node": "14.x"
+  
   }
 }

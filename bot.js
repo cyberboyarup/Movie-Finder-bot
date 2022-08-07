@@ -1,6 +1,6 @@
 const token = process.env.TOKEN;
 var request = require('request');
-const { Composer } = require('micro-bot')
+
 const Bot = require('node-telegram-bot-api');
 let bot;
 
